@@ -1,0 +1,14 @@
+{
+  "name": "pokemon-mcp-server",
+  "version": "1.0.0",
+  "description": "An MCP server that fetches random Pokemon data from the PokeAPI",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}
